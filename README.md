@@ -64,7 +64,7 @@ sudo docker pull scrapinghub/splash
 ```
 <br>
 If everything has worked correctly, when you open you Docker Desktop on the Images tab you should see the scrapinghub/splash image:
-
+<br>
 <img src="images/dockerDesktopScreenshot.png" width="500"/>
 <br>
 2. Run the following command: 
@@ -80,7 +80,7 @@ sudo docker run -it -p 8050:8050 --rm scrapinghub/splash
 ```
 <br>
 To check that Splash is running correctly, go to http://localhost:8050/ and you should see the following screen:
-
+<br>
 <img src="images/splashScreenshot.png" width="500"/>
 <br>
 If you do then, Scrapy Splash will be up and running correctly, and all our requests will be made through our Splash server, ensuring that any JavaScript on the page is rendered.
@@ -99,7 +99,7 @@ Enter one of the following commands:
 | **Screenshot** |  `scrapy crawl screenshot` | 
 | **Auto Scroll Website** |  `scrapy crawl scroll_page` |
 | **Skip Page** |  `scrapy crawl skip_page` |
-| **Wait For Full Page To Load** |  `scrapy crawl wait_for_full_page_to_load` |
+| **Wait For Full Page To Load** |  `scrapy crawl wait_for_full_page_load` |
 | **Wait Time** |  `scrapy crawl wait_time` |
 
 <br>
